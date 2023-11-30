@@ -25,7 +25,7 @@ while (index !== exponent) {
     index++;
 }
 
-if(!base && !exponent) {
+if (!base && !exponent) {
     alert (0)
 } else {
     alert(sum)
