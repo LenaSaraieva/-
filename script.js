@@ -10,3 +10,23 @@ do ... while
 for
 P.S.Любое число в степени 0 равняется 1
 0 в любой степени равняется 0 */
+
+let base = prompt('Enter a base');
+base = parseInt(base);
+
+let exponent = prompt('Enter an exponent');
+exponent = parseInt(exponent);
+
+let sum = 1;
+index = 0;
+
+while (index !== exponent) {
+    sum = sum * base;
+    index++;
+}
+
+if(!base && !exponent) {
+    alert (0)
+} else {
+    alert(sum)
+}
